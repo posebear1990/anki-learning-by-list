@@ -13,11 +13,42 @@ An Anki add-on that adds a `Learning by List` button to the deck overview page.
 
 ## Install locally
 
-On macOS/Linux, you can symlink this folder into:
+On macOS/Linux, symlink this project into Anki's add-ons folder under the stable module name:
 
 `~/Library/Application Support/Anki2/addons21/ankilearningbylist`
 
 Then restart Anki.
+
+Example:
+
+```bash
+ln -s /absolute/path/to/anki-learning-by-list \
+  ~/Library/Application\ Support/Anki2/addons21/ankilearningbylist
+```
+
+## Packaging
+
+This project keeps three names separate on purpose:
+
+- Repository name: `anki-learning-by-list`
+- Display name: `Learning by List`
+- Stable module/package name: `ankilearningbylist`
+
+To build a local release package:
+
+```bash
+./package.sh
+```
+
+The script creates `dist/anki-learning-by-list.ankiaddon` and only includes release files. It excludes local state like `meta.json`, `__pycache__`, and development-only folders.
+
+## Release Materials
+
+- Listing draft: [ANKIWEB_DESCRIPTION.md](./ANKIWEB_DESCRIPTION.md)
+- Review checklist: [RELEASE_REVIEW.md](./RELEASE_REVIEW.md)
+- Changelog: [CHANGELOG.md](./CHANGELOG.md)
+- License: [LICENSE](./LICENSE)
+- Screenshots: [screenshots/README.md](./screenshots/README.md)
 
 ## Notes
 

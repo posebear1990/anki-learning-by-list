@@ -1,0 +1,9 @@
+{
+  "display_name": "Learning by List",
+  "module_name": "ankilearningbylist",
+  "repo_name": "anki-learning-by-list",
+  "author": "posebear1990",
+  "homepage": "https://github.com/posebear1990/anki-learning-by-list",
+  "targets": ["anki21"],
+  "conflicts": []
+}
