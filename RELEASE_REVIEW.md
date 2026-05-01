@@ -25,7 +25,7 @@
 - Confirm `posebear1990` is the desired public author name in [manifest.json](/Users/posebear1990/workspace/anki-learning-by-list/manifest.json:1)
 - Upload [dist/anki-learning-by-list.ankiaddon](/Users/posebear1990/workspace/anki-learning-by-list/dist/anki-learning-by-list.ankiaddon) to AnkiWeb
 - Paste the prepared listing copy from [ANKIWEB_DESCRIPTION.md](/Users/posebear1990/workspace/anki-learning-by-list/ANKIWEB_DESCRIPTION.md)
-- Upload the prepared screenshots in the order documented in [screenshots/README.md](/Users/posebear1990/workspace/anki-learning-by-list/screenshots/README.md)
+- Confirm the embedded screenshots render correctly on the AnkiWeb page using the image sources documented in [screenshots/README.md](/Users/posebear1990/workspace/anki-learning-by-list/screenshots/README.md)
 
 ## Optional Manual Check
 
@@ -42,4 +42,4 @@
 - The package intentionally excludes `meta.json`, `__pycache__`, `backups/`, and other local-only files.
 - For local development, Anki still loads the add-on through the stable module path `ankilearningbylist`.
 - On AnkiWeb installs, Anki will use the add-on ID folder name automatically.
-- The screenshots are meant to be uploaded to the AnkiWeb listing separately, not embedded in the `.ankiaddon` package.
+- The screenshots are referenced from the GitHub repository in the AnkiWeb description, not bundled into the `.ankiaddon` package.

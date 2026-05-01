@@ -28,7 +28,11 @@ This add-on is built to improve study efficiency when normal card-by-card review
 
 ## Screenshots
 
-- Use the prepared listing screenshots as separate uploads on the AnkiWeb page.
+<p><img src="https://raw.githubusercontent.com/posebear1990/anki-learning-by-list/main/screenshots/01-overview-entry.png" alt="Deck overview with Learning by List button"></p>
+
+<p><img src="https://raw.githubusercontent.com/posebear1990/anki-learning-by-list/main/screenshots/02-list-view.png" alt="List view with configurable columns and inline audio"></p>
+
+<p><img src="https://raw.githubusercontent.com/posebear1990/anki-learning-by-list/main/screenshots/03-filter-sidebar.png" alt="Filter sidebar and visible column controls"></p>
 
 ## Support
 

@@ -1,6 +1,6 @@
 # Screenshots
 
-Suggested upload order for the AnkiWeb listing:
+Suggested embed order for the AnkiWeb listing description:
 
 1. [01-overview-entry.png](/Users/posebear1990/workspace/anki-learning-by-list/screenshots/01-overview-entry.png)
    Caption idea: `Adds a Learning by List entry point directly to the deck overview screen.`
@@ -12,5 +12,5 @@ Suggested upload order for the AnkiWeb listing:
 Notes:
 
 - These images are intended for the AnkiWeb listing, not for inclusion in the `.ankiaddon` package.
-- These images can be uploaded as separate listing screenshots on AnkiWeb. They do not need to be embedded into the description text.
+- These images should be embedded into the AnkiWeb description using raw GitHub image URLs.
 - If you later want cleaner marketing shots, the best upgrade would be capturing the same screens with a more curated demo deck.
